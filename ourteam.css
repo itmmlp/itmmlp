@@ -1,115 +1,137 @@
-* {
-  font-family: Nunito, sans-serif;
-}
-
-.text-blk {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  line-height: 25px;
-}
-
-.responsive-container-block {
-  min-height: 75px;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  justify-content: flex-start;
-}
-
-.container-block {
-  min-height: 75px;
-  height: fit-content;
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  display: block;
-}
-
-.responsive-cell-block {
-  min-height: 75px;
-}
-
-.container {
-  max-width: 1380px;
-  margin-top: 80px;
-  margin-right: auto;
-  margin-bottom: 80px;
-  margin-left: auto;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  padding-left: 30px;
-}
-
-.team-head-text {
-  font-size: 48px;
-  line-height: 50px;
-  font-weight: 900;
-  text-align: center;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 70px;
-  margin-left: 0px;
-}
-
-.name {
-  font-size: 18px;
-  margin-top: 11px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  font-weight: 700;
-}
-
-.position {
-  margin-top: 5px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-
-.team-card-container {
-  width: 263px;
-  margin-top: 0px;
-  margin-right: 15px;
-  margin-bottom: 30px;
-  margin-left: 15px;
-}
-
-.teamcard-container {
-  justify-content: space-evenly;
-}
-
-.team-img-wrapper {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-.team-img {
-  max-width: 100%;
-}
-
-@media (max-width: 500px) {
-  .team-card-container {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 30px;
-    margin-left: 0px;
-    width: 100%;
-  }
-
-  .team-img {
-    width: 100%;
-  }
-}
+<div class="responsive-container-block outer-container">
+  <div class="responsive-container-block inner-container">
+    <div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-12 wk-mobile-12">
+      <p class="text-blk heading-text">
+        Meet our dream team
+      </p>
+      <p class="text-blk sub-heading-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo enim risus
+        sit nullam aliquam. Mattis.
+      </p>
+    </div>
+    <div class="responsive-cell-block wk-desk-8 wk-ipadp-8 wk-tab-12 wk-mobile-12">
+      <p class="text-blk team-name">
+        Management Team
+      </p>
+      <div class="responsive-container-block">
+        <div class="swiper-container team-1-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET5.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <div class="swiper-button-nexts">
+            <img class="arrow-right-1" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
+          </div>
+          <div class="swiper-button-prevs">
+            <img class="arrow-left-1" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
+          </div>
+        </div>
+      </div>
+      <p class="text-blk team-name">
+        Engineering Team
+      </p>
+      <div class="responsive-container-block">
+        <div class="swiper-container team-2-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET5.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
+                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
+                <p class="text-blk name">
+                  Gustavo Workman
+                </p>
+                <p class="text-blk position">
+                  CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <div class="swiper-button-nexts2">
+            <img class="arrow-right-2" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
+          </div>
+          <div class="swiper-button-prevs2">
+            <img class="arrow-left-2" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
