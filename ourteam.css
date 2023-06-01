@@ -1,137 +1,210 @@
-<div class="responsive-container-block outer-container">
-  <div class="responsive-container-block inner-container">
-    <div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-12 wk-mobile-12">
-      <p class="text-blk heading-text">
-        Meet our dream team
-      </p>
-      <p class="text-blk sub-heading-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo enim risus
-        sit nullam aliquam. Mattis.
-      </p>
-    </div>
-    <div class="responsive-cell-block wk-desk-8 wk-ipadp-8 wk-tab-12 wk-mobile-12">
-      <p class="text-blk team-name">
-        Management Team
-      </p>
-      <div class="responsive-container-block">
-        <div class="swiper-container team-1-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET5.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="btn">
-          <div class="swiper-button-nexts">
-            <img class="arrow-right-1" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
-          </div>
-          <div class="swiper-button-prevs">
-            <img class="arrow-left-1" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
-          </div>
-        </div>
-      </div>
-      <p class="text-blk team-name">
-        Engineering Team
-      </p>
-      <div class="responsive-container-block">
-        <div class="swiper-container team-2-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET5.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET4.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="responsive-cell-block wk-desk-4 wk-ipadp-6 wk-tab-6 wk-mobile-12">
-                <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET3.jpg">
-                <p class="text-blk name">
-                  Gustavo Workman
-                </p>
-                <p class="text-blk position">
-                  CEO
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="btn">
-          <div class="swiper-button-nexts2">
-            <img class="arrow-right-2" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
-          </div>
-          <div class="swiper-button-prevs2">
-            <img class="arrow-left-2" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Path.svg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+* {
+  font-family: Nunito, sans-serif;
+}
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+.responsive-cell-block {
+  min-height: 75px;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+
+.outer-container {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.inner-container {
+  max-width: 1320px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.heading-text {
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.sub-heading-text {
+  color: rgb(122, 122, 122);
+  line-height: 30px;
+}
+
+.team-1-swiper {
+  overflow: hidden;
+}
+
+.team-2-swiper {
+  overflow: hidden;
+}
+
+.team-name {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.team-member-image {
+  width: 270px;
+  height: 230px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 200px;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.position {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  line-height: 24px;
+  width: 200px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.arrow-left-1 {
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.swiper-slide {
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.arrow-left-2 {
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.arrow-right-1 {
+  height: 14px;
+  cursor: pointer;
+}
+
+.swiper-slide.empty {
+  width: auto;
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+}
+
+.swiper-container.team-1-swiper,
+.swiper-container.team-2-swiper {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.arrow-right-2 {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .heading-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .sub-heading-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-member-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .outer-container {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+}
